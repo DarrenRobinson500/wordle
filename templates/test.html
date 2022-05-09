@@ -1,0 +1,86 @@
+{% extends 'base.html'%}
+{% block content %}
+
+<style>
+    .green {background-color:green;}
+    .amber {background-color:orange;}
+    .grey {background-color:grey;}
+</style>
+
+{% for x in green %}
+{{ x }}
+{% endfor %}
+
+<div class="row">
+    <div class="col-sm-4">
+
+    </div>
+    <div class="col-sm-4">
+        <h1>{{ word }} ({{ result }})</h1>
+        <p>{{record.date}}</p>
+        <table class='table table-sm' style="text-align: center;">
+            {% for word in input_array %}
+                <tr>
+                {% for letter, colour in word %}
+                    <td style="background-color: {{ colour }}; color: white; font-weight: bold;">{{ letter | capfirst }}</td>
+                {% endfor %}
+                </tr>
+            {% endfor %}
+        </table>
+    </div>
+    <div class="col-sm-4">
+    </div>
+</div>
+
+<div class="row">
+
+    <div class="col-sm-1">
+    </div>
+    <div class="col-sm-2">
+        <b>Round 2</b><br>
+        Count: {{ count1 }} <br>
+        Word: {{ fav_word1 }}<br><br>
+        {% for x in words1 %} {{ x }} <br> {% endfor %}
+    </div>
+
+    <div class="col-sm-2">
+        <b>Round 3</b><br>
+        Count: {{ count2 }} <br>
+        Word: {{ fav_word2 }}<br><br>
+        {% for x in words2 %} {{ x }} <br> {% endfor %}
+    </div>
+
+    <div class="col-sm-2">
+        <b>Round 4</b><br>
+        Count: {{ count3 }} <br>
+        Word: {{ fav_word3 }}<br><br>
+        {% for x in words3 %} {{ x }} <br> {% endfor %}
+    </div>
+
+    <div class="col-sm-2">
+        <b>Round 5</b><br>
+        Count: {{ count4 }} <br>
+        Word: {{ fav_word4 }}<br><br>
+        {% for x in words4 %} {{ x }} <br> {% endfor %}
+    </div>
+
+    <div class="col-sm-2">
+        <b>Round 6</b><br>
+        Count: {{ count5 }} <br>
+        Word: {{ fav_word5 }}<br><br>
+        {% for x in words5 %} {{ x }} <br> {% endfor %}
+    </div>
+
+<!--    <div class="col-sm-2">-->
+<!--        Count: {{ count6 }} <br>-->
+<!--        Word: {{ fav_word6 }}<br><br>-->
+<!--        {% for x in words6 %} {{ x }} <br> {% endfor %}-->
+<!--    </div>-->
+
+
+    <div class="col-sm-3">
+    </div>
+</div>
+
+
+{% endblock %}

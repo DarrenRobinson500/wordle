@@ -1,0 +1,45 @@
+{% extends 'base.html'%}
+{% block content %}
+
+<h1>Summary: {{first_entry}}</h1>
+<a href="{% url 'solve_all' '1' %}" class='btn btn-outline-secondary btn-sm'>Redo Attempt 1</a>
+<a href="{% url 'solve_all' '2' %}" class='btn btn-outline-secondary btn-sm'>Redo Attempt 2</a>
+<a href="{% url 'solve_all' '3' %}" class='btn btn-outline-secondary btn-sm'>Redo Attempt 3</a>
+<a href="{% url 'solve_all' '4' %}" class='btn btn-outline-secondary btn-sm'>Redo Attempt 4</a>
+<a href="{% url 'solve_all' '5' %}" class='btn btn-outline-secondary btn-sm'>Redo Attempt 5</a>
+<a href="{% url 'solve_all' '6' %}" class='btn btn-outline-secondary btn-sm'>Redo Attempt 6</a>
+<a href="{% url 'solve_all' '-1' %}" class='btn btn-outline-secondary btn-sm'>Redo No Outcome</a>
+<a href="{% url 'solve_all' 'all' %}" class='btn btn-outline-secondary btn-sm'>Redo All</a>
+
+<br>
+<a href="{% url 'summary' 'XXXXX' %}" class='btn btn-outline-secondary btn-sm'>Show XXXXX</a>
+<a href="{% url 'load_dates' %}" class='btn btn-outline-secondary btn-sm'>Load Dates</a>
+
+<table class='table table-sm' style="text-align: center;">
+    <tr><th>Attempts</th><th>{{first_entry}}</th></tr>
+    <tr><td>1</td><td>{{attempt1.count}}</td></tr>
+    <tr><td>2</td><td>{{attempt2.count}}</td></tr>
+    <tr><td>3</td><td>{{attempt3.count}}</td></tr>
+    <tr><td>4</td><td>{{attempt4.count}}</td></tr>
+    <tr><td>5</td><td>{{attempt5.count}}</td></tr>
+    <tr><td>6</td><td>{{attempt6.count}}</td></tr>
+    <tr><td>7</td><td>{{attemptNR.count}}</td></tr>
+    <tr><td>Score</td><td>{{score}}</td></tr>
+</table>
+
+<table class='table table-sm' style="text-align: center;">
+    <tr><td>Not Solved ({{attemptNR.count}})</td><td>{% for x in attemptNR %} <a href="{% url 'test' x.word %}">{{x}}</a> ({{x.outcome1}}) {% endfor %}</td></tr>
+    <tr><td>Attempt 1 ({{attempt1.count}})</td><td>{% for x in attempt1 %} <a href="{% url 'test' x.word %}">{{x}}</a> ({{x.outcome1}}) {% endfor %}</td></tr>
+    <tr><td>Attempt 2 ({{attempt2.count}})</td><td>{% for x in attempt2 %} <a href="{% url 'test' x.word %}">{{x}}</a> ({{x.outcome1}}) {% endfor %}</td></tr>
+    <tr><td>Attempt 3 ({{attempt3.count}})</td><td>{% for x in attempt3 %} <a href="{% url 'test' x.word %}">{{x}}</a> ({{x.outcome1}}) {% endfor %}</td></tr>
+    <tr><td>Attempt 4 ({{attempt4.count}})</td><td>{% for x in attempt4 %} <a href="{% url 'test' x.word %}">{{x}}</a> ({{x.outcome1}}) {% endfor %}</td></tr>
+    <tr><td>Attempt 5 ({{attempt5.count}})</td><td>{% for x in attempt5 %} <a href="{% url 'test' x.word %}">{{x}}</a> ({{x.outcome1}}) {% endfor %}</td></tr>
+    <tr><td>Attempt 6 ({{attempt6.count}})</td><td>{% for x in attempt6 %} <a href="{% url 'test' x.word %}">{{x}}</a> ({{x.outcome1}}) {% endfor %}</td></tr>
+
+
+
+    <tr><td>None ({{attemptNone.count}})</td><td>{% for x in attemptNone %} {{x}} {% endfor %}</td></tr>
+</table>
+
+
+{% endblock %}

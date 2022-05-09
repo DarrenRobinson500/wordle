@@ -1,0 +1,25 @@
+{% extends 'base.html'%}
+{% block content %}
+<h1>Upcoming words</h1>
+<div class="row">
+    <div class="col-sm-5">
+        <table class='table table-sm' style="text-align: center;">
+            <tr>
+                <th>Date</th>
+                <th>Word</th>
+                <th>Attempts (slice)</th>
+                <th>Attempts (brain)</th>
+            </tr>
+            {% for date,word,x in words%}
+            <tr>
+                <td>{{date}}</td>
+                <td><a href="{% url 'test' x %}">{{word}}</a>
+                <td>{{x.attempts}}</td>
+                <td>{{x.attempts_brain}}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+</div>
+
+{% endblock %}

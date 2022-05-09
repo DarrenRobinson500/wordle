@@ -1,0 +1,16 @@
+{% extends 'base.html'%}
+{% block content %}
+
+<h1>Distribution</h1>
+
+<table>
+{% for entry, distribution in distributions %}
+    <tr>
+        <td>{{entry}}</td>
+        <td>{{distribution}}</td>
+    </tr>
+
+{% endfor %}
+</table>
+
+{% endblock %}
