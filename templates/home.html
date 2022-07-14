@@ -1,5 +1,6 @@
 {% extends 'base.html'%}
 {% block content %}
+{% load svg %}
 
 <style>
     .green {background-color:green;}
@@ -67,6 +68,12 @@
     <div class="col-sm-4">
     </div>
 </div>
+
+{% if svg_file %}
+<div class="col-sm-12">
+    <h1 class="logo" width="500">{% svg svg_file %}</h1>
+</div>
+{% endif %}
 
 <br><br>
 {% endblock %}

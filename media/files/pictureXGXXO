@@ -1,0 +1,73 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	XGXXO1 -> XGGXX2
+	XGGXX2 -> bleed
+	XGXXO1 -> OGGXG2
+	OGGXG2 -> XGGGG3
+	XGGGG3 -> pleat
+	XGXXO1 -> XGOOX2
+	XGOOX2 -> XOXXO3
+	XOXXO3 -> elder
+	XGXXO1 -> OGGXX2
+	OGGXX2 -> GXXXX3
+	GXXXX3 -> GGGGX4
+	GGGGX4 -> glean
+	XGXXO1 -> XGGXG2
+	XGGXG2 -> fleet
+	XGXXO1 -> XGOOX2
+	XGOOX2 -> XXXXO3
+	XXXXO3 -> flyer
+	XGXXO1 -> XGOOX2
+	XGOOX2 -> XXXOO3
+	XXXOO3 -> bluer
+	XGXXO1 -> GGOXX2
+	GGOXX2 -> alley
+	XGXXO1 -> OGGXX2
+	OGGXX2 -> XXXXX3
+	XXXXX3 -> bleak
+	XGXXO1 -> OGGXG2
+	OGGXG2 -> bleat
+	XGXXO1 -> XGOXX2
+	XGOXX2 -> elbow
+	XGXXO1 -> GGOOO2
+	GGOOO2 -> alter
+	XGXXO1 -> XGGXX2
+	XGGXX2 -> XGGOX3
+	XGGOX3 -> elegy
+	XGXXO1 -> alert
+	XGXXO1 -> XGGXX2
+	XGGXX2 -> GGGOG3
+	GGGOG3 -> blend
+	XGXXO1 -> XGOXX2
+	XGOXX2 -> OGXOX3
+	OGXOX3 -> olden
+	XGXXO1 -> XGOOX2
+	XGOOX2 -> XOOXO3
+	XOOXO3 -> older
+	XGXXO1 -> OGGXX2
+	OGGXX2 -> GXXXX3
+	GXXXX3 -> gleam
+	XGXXO1 -> OGGXX2
+	OGGXX2 -> XXXXO3
+	XXXXO3 -> plead
+	XGXXO1 -> XGGXX2
+	XGGXX2 -> GGGGX3
+	GGGGX3 -> bleep
+}

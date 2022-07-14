@@ -1,0 +1,66 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	XOGXX1 -> OXGOX2
+	OXGOX2 -> lying
+	XOGXX1 -> guild
+	XOGXX1 -> GXGGX2
+	GXGGX2 -> gaily
+	XOGXX1 -> XGGGX2
+	XGGGX2 -> XXOOO3
+	XXOOO3 -> built
+	XOGXX1 -> XXGOX2
+	XXGOX2 -> GOGXG3
+	GOGXG3 -> twirl
+	XOGXX1 -> XGGGX2
+	XGGGX2 -> XOOOX3
+	XOOOX3 -> quill
+	XOGXX1 -> XGGGG2
+	XGGGG2 -> build
+	XOGXX1 -> GXGGX2
+	GXGGX2 -> GXGGX3
+	GXGGX3 -> grill
+	XOGXX1 -> XGGGX2
+	XGGGX2 -> XOOOX3
+	XOOOX3 -> GGGGO4
+	GGGGO4 -> quilt
+	XOGXX1 -> XXGOX2
+	XXGOX2 -> trial
+	XOGXX1 -> GGGGX2
+	GGGGX2 -> guilt
+	XOGXX1 -> XXGGX2
+	XXGGX2 -> XXGGO3
+	XXGGO3 -> voila
+	XOGXX1 -> XXGGO2
+	XXGGO2 -> GXGGX3
+	GXGGX3 -> drill
+	XOGXX1 -> XXGGX2
+	XXGGX2 -> XGGGG3
+	XGGGG3 -> krill
+	XOGXX1 -> XXGGX2
+	XXGGX2 -> frill
+	XOGXX1 -> XXGOX2
+	XXGOX2 -> XXGGG3
+	XXGGG3 -> axial
+	XOGXX1 -> XXGGO2
+	XXGGO2 -> daily
+	XOGXX1 -> XXGOX2
+	XXGOX2 -> XOGXG3
+	XOGXG3 -> whirl
+}

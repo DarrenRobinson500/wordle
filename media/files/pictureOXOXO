@@ -1,0 +1,30 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	OXOXO1 -> XGGGO2
+	XGGGO2 -> risen
+	OXOXO1 -> XOGOO2
+	XOGOO2 -> resin
+	OXOXO1 -> miser
+	OXOXO1 -> XGGGG2
+	XGGGG2 -> OGGGG3
+	OGGGG3 -> wiser
+	OXOXO1 -> XGGGG2
+	XGGGG2 -> riser
+}

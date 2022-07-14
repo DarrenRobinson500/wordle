@@ -1,0 +1,33 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	GXXOG1 -> OXXGG2
+	OXXGG2 -> scare
+	GXXOG1 -> XXGGG2
+	XXGGG2 -> score
+	GXXOG1 -> XXGXG2
+	XXGXG2 -> GGGXG3
+	GGGXG3 -> scope
+	GXXOG1 -> XXGXG2
+	XXGXG2 -> scone
+	GXXOG1 -> XXXXG2
+	XXXXG2 -> scene
+	GXXOG1 -> XXXOG2
+	XXXOG2 -> scree
+}

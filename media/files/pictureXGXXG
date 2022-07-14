@@ -1,0 +1,91 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	XGXXG1 -> XGXXG2
+	XGXXG2 -> GGGXG3
+	GGGXG3 -> flume
+	XGXXG1 -> XGOXG2
+	XGOXG2 -> GGXOG3
+	GGXOG3 -> alone
+	XGXXG1 -> GGXXG2
+	GGXXG2 -> bloke
+	XGXXG1 -> XGXXG2
+	XGXXG2 -> XGXXG3
+	XGXXG3 -> elope
+	XGXXG1 -> XGXXG2
+	XGXXG2 -> XGGXG3
+	XGGXG3 -> OGGXG4
+	OGGXG4 -> plume
+	XGXXG1 -> XGXXG2
+	XGXXG2 -> XGGXG3
+	XGGXG3 -> elude
+	XGXXG1 -> XGXXG2
+	XGXXG2 -> XGXXG3
+	XGXXG3 -> OGGXG4
+	OGGXG4 -> glove
+	XGXXG1 -> OGXXG2
+	OGXXG2 -> globe
+	XGXXG1 -> XGOXG2
+	XGOXG2 -> algae
+	XGXXG1 -> XGGXG2
+	XGGXG2 -> XOXXO3
+	XOXXO3 -> plane
+	XGXXG1 -> XGXXG2
+	XGXXG2 -> fluke
+	XGXXG1 -> XGGXG2
+	XGGXG2 -> XOXXX3
+	XOXXX3 -> OGGGG4
+	OGGGG4 -> plate
+	XGXXG1 -> XGGGG2
+	XGGGG2 -> XGGGG3
+	XGGGG3 -> glare
+	XGXXG1 -> GGGXG2
+	GGGXG2 -> XXXOO3
+	XXXOO3 -> blaze
+	XGXXG1 -> XGXXG2
+	XGXXG2 -> GGGXG3
+	GGGXG3 -> GGGXG4
+	GGGXG4 -> flute
+	XGXXG1 -> XGGXG2
+	XGGXG2 -> XOXOX3
+	XOXOX3 -> glade
+	XGXXG1 -> XGGXG2
+	XGGXG2 -> XOXXX3
+	XOXXX3 -> elate
+	XGXXG1 -> blare
+	XGXXG1 -> XGGXG2
+	XGGXG2 -> GOXXX3
+	GOXXX3 -> GGGXG4
+	GGGXG4 -> flame
+	XGXXG1 -> XGGXG2
+	XGGXG2 -> GOXXX3
+	GOXXX3 -> flake
+	XGXXG1 -> XGGGG2
+	XGGGG2 -> flare
+	XGXXG1 -> GGGXG2
+	GGGXG2 -> XXOOO3
+	XXOOO3 -> blade
+	XGXXG1 -> XGGXG2
+	XGGXG2 -> XOXOX3
+	XOXOX3 -> GGGXG4
+	GGGXG4 -> glaze
+	XGXXG1 -> GGGXG2
+	GGGXG2 -> OXXOO3
+	OXXOO3 -> blame
+}

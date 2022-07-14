@@ -1,0 +1,68 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	XXGXO1 -> XOGXX2
+	XOGXX2 -> XXGGX3
+	XXGGX3 -> quiet
+	XXGXO1 -> XGGGG2
+	XGGGG2 -> feign
+	XXGXO1 -> XGGOO2
+	XGGOO2 -> being
+	XXGXO1 -> OOGXX2
+	OOGXX2 -> edify
+	XXGXO1 -> OOGXX2
+	OOGXX2 -> OOGXX3
+	OOGXX3 -> pried
+	XXGXO1 -> XGGGG2
+	XGGGG2 -> XGGGG3
+	XGGGG3 -> reign
+	XXGXO1 -> XOGOX2
+	XOGOX2 -> grief
+	XXGXO1 -> XOGXX2
+	XOGXX2 -> XXGGG3
+	XXGGG3 -> thief
+	XXGXO1 -> GGGXX2
+	GGGXX2 -> deity
+	XXGXO1 -> deign
+	XXGXO1 -> XOGXX2
+	XOGXX2 -> brief
+	XXGXO1 -> GOGXX2
+	GOGXX2 -> GGGGO3
+	GGGGO3 -> drier
+	XXGXO1 -> XGGGO2
+	XGGGO2 -> neigh
+	XXGXO1 -> OGGXX2
+	OGGXX2 -> weird
+	XXGXO1 -> OOGXX2
+	OOGXX2 -> OOGXX3
+	OOGXX3 -> XGGGG4
+	XGGGG4 -> tried
+	XXGXO1 -> XGGGX2
+	XGGGX2 -> weigh
+	XXGXO1 -> OOGXX2
+	OOGXX2 -> OOGOX3
+	OOGOX3 -> fried
+	XXGXO1 -> XOGOO2
+	XOGOO2 -> eking
+	XXGXO1 -> GOGXX2
+	GOGXX2 -> dried
+	XXGXO1 -> XOGOO2
+	XOGOO2 -> GXGGG3
+	GXGGG3 -> eying
+}

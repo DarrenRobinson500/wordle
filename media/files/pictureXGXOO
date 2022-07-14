@@ -1,0 +1,35 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	XGXOO1 -> OGOXX2
+	OGOXX2 -> ulcer
+	XGXOO1 -> clean
+	XGXOO1 -> GGOXX2
+	GGOXX2 -> clued
+	XGXOO1 -> GGGGX2
+	GGGGX2 -> clear
+	XGXOO1 -> GGGGX2
+	GGGGX2 -> GGGGX3
+	GGGGX3 -> cleat
+	XGXOO1 -> GGGXX2
+	GGGXX2 -> GGGXX3
+	GGGXX3 -> clerk
+	XGXOO1 -> GGGXX2
+	GGGXX2 -> cleft
+}

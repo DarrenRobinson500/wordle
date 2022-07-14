@@ -1,0 +1,56 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	XXXGG1 -> XOXGG2
+	XOXGG2 -> XOXOO3
+	XOXOO3 -> trace
+	XXXGG1 -> XGXGG2
+	XGXGG2 -> farce
+	XXXGG1 -> XOXGG2
+	XOXGG2 -> XOOOX3
+	XOOOX3 -> grace
+	XXXGG1 -> XXXGG2
+	XXXGG2 -> XXOGG3
+	XXOGG3 -> truce
+	XXXGG1 -> GXGGG2
+	GXGGG2 -> dunce
+	XXXGG1 -> XXGGG2
+	XXGGG2 -> XXXXX3
+	XXXXX3 -> pence
+	XXXGG1 -> dance
+	XXXGG1 -> XXXGG2
+	XXXGG2 -> force
+	XXXGG1 -> XXGGG2
+	XXGGG2 -> GXXXX3
+	GXXXX3 -> fence
+	XXXGG1 -> XXGGG2
+	XXGGG2 -> XOXXX3
+	XOXXX3 -> ounce
+	XXXGG1 -> GXXGG2
+	GXXGG2 -> deuce
+	XXXGG1 -> XOXGG2
+	XOXGG2 -> GOXOX3
+	GOXOX3 -> brace
+	XXXGG1 -> XXGGG2
+	XXGGG2 -> XXXXO3
+	XXXXO3 -> hence
+	XXXGG1 -> XOXGG2
+	XOXGG2 -> XGXOX3
+	XGXOX3 -> peace
+}

@@ -1,0 +1,88 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	GOXXX1 -> GXXOX2
+	GXXOX2 -> GXGGG3
+	GXGGG3 -> stool
+	GOXXX1 -> GGOOX2
+	GGOOX2 -> salad
+	GOXXX1 -> GOXOX2
+	GOXOX2 -> GXOGO3
+	GXOGO3 -> solar
+	GOXXX1 -> GOXGX2
+	GOXGX2 -> XGXXX3
+	XGXXX3 -> shall
+	GOXXX1 -> GOXOX2
+	GOXOX2 -> GGXOG3
+	GGXOG3 -> shawl
+	GOXXX1 -> GOXGX2
+	GOXGX2 -> OXXXX3
+	OXXXX3 -> stalk
+	GOXXX1 -> GOXOX2
+	GOXOX2 -> GXXOG3
+	GXXOG3 -> snarl
+	GOXXX1 -> sadly
+	GOXXX1 -> GOXOX2
+	GOXOX2 -> GXXGO3
+	GXXGO3 -> splat
+	GOXXX1 -> GOXOX2
+	GOXOX2 -> shoal
+	GOXXX1 -> GGXOX2
+	GGXOX2 -> GOGXX3
+	GOGXX3 -> salon
+	GOXXX1 -> GXXGX2
+	GXXGX2 -> skulk
+	GOXXX1 -> GOXGX2
+	GOXGX2 -> OGXXX3
+	OGXXX3 -> shalt
+	GOXXX1 -> GXXGG2
+	GXXGG2 -> OXXXO3
+	OXXXO3 -> shyly
+	GOXXX1 -> GXXOG2
+	GXXOG2 -> sulky
+	GOXXX1 -> GXXGX2
+	GXXGX2 -> GGGGO3
+	GGGGO3 -> skull
+	GOXXX1 -> GGXGG2
+	GGXGG2 -> sally
+	GOXXX1 -> GGXOG2
+	GGXOG2 -> salty
+	GOXXX1 -> GGXOX2
+	GGXOX2 -> GXGXX3
+	GXGXX3 -> salsa
+	GOXXX1 -> GXXOX2
+	GXXOX2 -> spool
+	GOXXX1 -> GXXGG2
+	GXXGG2 -> XGXXX3
+	XGXXX3 -> GGOGG4
+	GGOGG4 -> surly
+	GOXXX1 -> GOXGX2
+	GOXGX2 -> XXXOX3
+	XXXOX3 -> small
+	GOXXX1 -> GOXGX2
+	GOXGX2 -> OXXXX3
+	OXXXX3 -> GGGGX4
+	GGGGX4 -> stall
+	GOXXX1 -> GGXOX2
+	GGXOX2 -> GOGGX3
+	GOGGX3 -> salvo
+	GOXXX1 -> GXXGG2
+	GXXGG2 -> XGXXX3
+	XGXXX3 -> sully
+}

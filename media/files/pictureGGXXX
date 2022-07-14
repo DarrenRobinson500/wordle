@@ -1,0 +1,53 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	GGXXX1 -> GGGOX2
+	GGGOX2 -> OXGXX3
+	OXGXX3 -> slump
+	GGXXX1 -> GGXGG2
+	GGXGG2 -> GGXGG3
+	GGXGG3 -> slosh
+	GGXXX1 -> GGGOX2
+	GGGOX2 -> XXGXO3
+	XXGXO3 -> slung
+	GGXXX1 -> GGXOG2
+	GGXOG2 -> sloth
+	GGXXX1 -> GGXOX2
+	GGXOX2 -> slang
+	GGXXX1 -> GGGOX2
+	GGGOX2 -> XXGGX3
+	XXGGX3 -> slurp
+	GGXXX1 -> slush
+	GGXXX1 -> GGXGG2
+	GGXGG2 -> slash
+	GGXXX1 -> GGXOX2
+	GGXOX2 -> GGGGX3
+	GGGGX3 -> slant
+	GGXXX1 -> GGXOX2
+	GGXOX2 -> GGXXX3
+	GGXXX3 -> sloop
+	GGXXX1 -> GGGOX2
+	GGGOX2 -> XXGXO3
+	XXGXO3 -> GGGGX4
+	GGGGX4 -> slunk
+	GGXXX1 -> GGXOX2
+	GGXOX2 -> GGXXX3
+	GGXXX3 -> GGXXX4
+	GGXXX4 -> slyly
+}

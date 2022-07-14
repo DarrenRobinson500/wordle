@@ -1,0 +1,100 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	XOXXG1 -> OOXGG2
+	OOXGG2 -> ample
+	XOXXG1 -> OXXOG2
+	OXXOG2 -> delve
+	XOXXG1 -> OOXOG2
+	OOXOG2 -> leave
+	XOXXG1 -> OGXOG2
+	OGXOG2 -> XGGGG3
+	XGGGG3 -> valve
+	XOXXG1 -> OXXOG2
+	OXXOG2 -> XGGXG3
+	XGGXG3 -> melee
+	XOXXG1 -> OOXGG2
+	OOXGG2 -> GXGGG3
+	GXGGG3 -> apple
+	XOXXG1 -> OOGGG2
+	OOGGG2 -> angle
+	XOXXG1 -> eagle
+	XOXXG1 -> OXXGG2
+	OXXGG2 -> GOOGG3
+	GOOGG3 -> boule
+	XOXXG1 -> OOXGG2
+	OOXGG2 -> GGXGG3
+	GGXGG3 -> amble
+	XOXXG1 -> OGOOG2
+	OGOOG2 -> large
+	XOXXG1 -> OGXOG2
+	OGXOG2 -> halve
+	XOXXG1 -> OXOOG2
+	OXOOG2 -> GOGGG3
+	GOGGG3 -> lodge
+	XOXXG1 -> OXOOG2
+	OXOOG2 -> GOXGG3
+	GOXGG3 -> lunge
+	XOXXG1 -> OGXGG2
+	OGXGG2 -> XOXOG3
+	XOXOG3 -> maple
+	XOXXG1 -> OGXOG2
+	OGXOG2 -> XGGOG3
+	XGGOG3 -> value
+	XOXXG1 -> OXGGG2
+	OXGGG2 -> bugle
+	XOXXG1 -> OOXGG2
+	OOXGG2 -> OXXGG3
+	OXXGG3 -> whale
+	XOXXG1 -> OXXGG2
+	OXXGG2 -> OOOGG3
+	OOOGG3 -> noble
+	XOXXG1 -> OGXGG2
+	OGXGG2 -> XOXXG3
+	XOXXG3 -> OGXGG4
+	OGXGG4 -> table
+	XOXXG1 -> OXXGG2
+	OXXGG2 -> XOOGG3
+	XOOGG3 -> whole
+	XOXXG1 -> OGXGG2
+	OGXGG2 -> GOXXG3
+	GOXXG3 -> fable
+	XOXXG1 -> OXXGG2
+	OXXGG2 -> XOGGG3
+	XOGGG3 -> tulle
+	XOXXG1 -> OOXGG2
+	OOXGG2 -> GXXGG3
+	GXXGG3 -> ankle
+	XOXXG1 -> OGXGG2
+	OGXGG2 -> XOXXG3
+	XOXXG3 -> ladle
+	XOXXG1 -> OXOOG2
+	OXOOG2 -> OOXGG3
+	OOXGG3 -> bulge
+	XOXXG1 -> OXOOG2
+	OXOOG2 -> ledge
+	XOXXG1 -> OXXGG2
+	OXXGG2 -> belle
+	XOXXG1 -> OGXOG2
+	OGXOG2 -> OGOXG3
+	OGOXG3 -> lathe
+	XOXXG1 -> OGXOG2
+	OGXOG2 -> XGOXG3
+	XGOXG3 -> latte
+}

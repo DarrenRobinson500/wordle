@@ -1,0 +1,32 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	XOOOX1 -> lilac
+	XOOOX1 -> OGOXO2
+	OGOXO2 -> civil
+	XOOOX1 -> OOOOO2
+	OOOOO2 -> cavil
+	XOOOX1 -> GOOXG2
+	GOOXG2 -> logic
+	XOOOX1 -> GOOXG2
+	GOOXG2 -> GXXGG3
+	GXXGG3 -> lyric
+	XOOOX1 -> GOOXO2
+	GOOXO2 -> lucid
+}

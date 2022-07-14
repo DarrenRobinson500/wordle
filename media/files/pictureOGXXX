@@ -1,0 +1,39 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	OGXXX1 -> XGXGG2
+	XGXGG2 -> blush
+	OGXXX1 -> GGXGX2
+	GGXGX2 -> floss
+	OGXXX1 -> XGGGX2
+	XGGGX2 -> XGGGX3
+	XGGGX3 -> glass
+	OGXXX1 -> XGGGX2
+	XGGGX2 -> blast
+	OGXXX1 -> XGXGG2
+	XGXGG2 -> XGGGG3
+	XGGGG3 -> plush
+	OGXXX1 -> flash
+	OGXXX1 -> XGXGX2
+	XGXGX2 -> gloss
+	OGXXX1 -> GGGGX2
+	GGGGX2 -> flask
+	OGXXX1 -> GGXGG2
+	GGXGG2 -> flush
+}

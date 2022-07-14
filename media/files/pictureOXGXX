@@ -1,0 +1,59 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	OXGXX1 -> XXGOX2
+	XXGOX2 -> using
+	OXGXX1 -> moist
+	OXGXX1 -> XXGGX2
+	XXGGX2 -> brisk
+	OXGXX1 -> XXGGX2
+	XXGGX2 -> XXGGG3
+	XXGGG3 -> whisk
+	OXGXX1 -> XXGGX2
+	XXGGX2 -> XGGGG3
+	XGGGG3 -> frisk
+	OXGXX1 -> XXGGG2
+	XXGGG2 -> OGXOX3
+	OGXOX3 -> wrist
+	OXGXX1 -> XXGGX2
+	XXGGX2 -> XXGGX3
+	XXGGX3 -> daisy
+	OXGXX1 -> XGGGG2
+	XGGGG2 -> XXXGO3
+	XXXGO3 -> hoist
+	OXGXX1 -> XGGGG2
+	XGGGG2 -> XXXGX3
+	XXXGX3 -> joist
+	OXGXX1 -> XXGGG2
+	XXGGG2 -> OXOOX3
+	OXOOX3 -> waist
+	OXGXX1 -> OXGGX2
+	OXGGX2 -> XOGGO3
+	XOGGO3 -> prism
+	OXGXX1 -> XGGGX2
+	XGGGX2 -> noisy
+	OXGXX1 -> XGGGG2
+	XGGGG2 -> GXXGX3
+	GXXGX3 -> foist
+	OXGXX1 -> OXGGX2
+	OXGGX2 -> amiss
+	OXGXX1 -> XXGGG2
+	XXGGG2 -> GXXOX3
+	GXXOX3 -> twist
+}

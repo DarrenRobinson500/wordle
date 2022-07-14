@@ -1,0 +1,63 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	OXOXX1 -> first
+	OXOXX1 -> XGXGG2
+	XGXGG2 -> midst
+	OXOXX1 -> XGXGO2
+	XGXGO2 -> tipsy
+	OXOXX1 -> XOXGX2
+	XOXGX2 -> quasi
+	OXOXX1 -> XGXOG2
+	XGXOG2 -> visit
+	OXOXX1 -> XGOOX2
+	XGOOX2 -> risky
+	OXOXX1 -> XOXOX2
+	XOXOX2 -> basin
+	OXOXX1 -> XGXGX2
+	XGXGX2 -> XGXGX3
+	XGXGX3 -> kiosk
+	OXOXX1 -> XGXOO2
+	XGXOO2 -> vista
+	OXOXX1 -> XOXOG2
+	XOXOG2 -> posit
+	OXOXX1 -> XGXGX2
+	XGXGX2 -> XGXGG3
+	XGXGG3 -> missy
+	OXOXX1 -> GGXOX2
+	GGXOX2 -> fishy
+	OXOXX1 -> XGXGX2
+	XGXGX2 -> gipsy
+	OXOXX1 -> XGXOX2
+	XGXOX2 -> XGGXX3
+	XGGXX3 -> wispy
+	OXOXX1 -> XOXOX2
+	XOXOX2 -> GGGGX3
+	GGGGX3 -> basis
+	OXOXX1 -> XGXOX2
+	XGXOX2 -> XGOXO3
+	XGOXO3 -> minus
+	OXOXX1 -> XGXOX2
+	XGXOX2 -> bison
+	OXOXX1 -> XGGOX2
+	XGGOX2 -> virus
+	OXOXX1 -> XGOOX2
+	XGOOX2 -> OGGXX3
+	OGGXX3 -> visor
+}

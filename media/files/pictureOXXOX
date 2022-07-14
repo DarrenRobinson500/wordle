@@ -1,0 +1,41 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	OXXOX1 -> GXXXO2
+	GXXXO2 -> crust
+	OXXOX1 -> GXGXG2
+	GXGXG2 -> crass
+	OXXOX1 -> GXGOO2
+	GXGOO2 -> coast
+	OXXOX1 -> OXXOG2
+	OXXOG2 -> focus
+	OXXOX1 -> chaos
+	OXXOX1 -> GXXOG2
+	GXXOG2 -> cross
+	OXXOX1 -> OXOGO2
+	OXOGO2 -> ascot
+	OXXOX1 -> GOGXO2
+	GOGXO2 -> crash
+	OXXOX1 -> GGGXO2
+	GGGXO2 -> chasm
+	OXXOX1 -> OXXXG2
+	OXXXG2 -> mucus
+	OXXOX1 -> GOXXO2
+	GOXXO2 -> crush
+}

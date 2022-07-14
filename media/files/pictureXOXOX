@@ -1,0 +1,60 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	XOXOX1 -> OGXGG2
+	OGXGG2 -> focal
+	XOXOX1 -> GGXXO2
+	GGXXO2 -> GGXOX3
+	GGXOX3 -> colon
+	XOXOX1 -> GGXXO2
+	GGXXO2 -> could
+	XOXOX1 -> GXXOO2
+	GXXOO2 -> caulk
+	XOXOX1 -> GGXXO2
+	GGXXO2 -> GGXGX3
+	GGXGX3 -> coyly
+	XOXOX1 -> OOXGG2
+	OOXGG2 -> octal
+	XOXOX1 -> OXXXO2
+	OXXXO2 -> lucky
+	XOXOX1 -> OGXGG2
+	OGXGG2 -> XGGGG3
+	XGGGG3 -> OGGGG4
+	OGGGG4 -> vocal
+	XOXOX1 -> OGXGG2
+	OGXGG2 -> XGGGG3
+	XGGGG3 -> local
+	XOXOX1 -> coral
+	XOXOX1 -> GXGXO2
+	GXGXO2 -> curly
+	XOXOX1 -> GOGOG2
+	GOGOG2 -> carol
+	XOXOX1 -> GXXOO2
+	GXXOO2 -> GOXGG3
+	GOXGG3 -> chalk
+	XOXOX1 -> GXXGG2
+	GXXGG2 -> GGXGG3
+	GGXGG3 -> canal
+	XOXOX1 -> GXOOG2
+	GXOOG2 -> crawl
+	XOXOX1 -> GGOXO2
+	GGOXO2 -> color
+	XOXOX1 -> GXXGG2
+	GXXGG2 -> cabal
+}

@@ -1,0 +1,35 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	OXXOG1 -> GXXGG2
+	GXXGG2 -> chose
+	OXXOG1 -> GOXGG2
+	GOXGG2 -> GOGGG3
+	GOGGG3 -> chase
+	OXXOG1 -> GXXGG2
+	GXXGG2 -> GXOGG3
+	GXOGG3 -> copse
+	OXXOG1 -> GGXOG2
+	GGXOG2 -> caste
+	OXXOG1 -> cause
+	OXXOG1 -> GXOGG2
+	GXOGG2 -> curse
+	OXXOG1 -> GOXGG2
+	GOXGG2 -> cease
+}

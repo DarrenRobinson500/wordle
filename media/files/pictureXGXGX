@@ -1,0 +1,42 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	XGXGX1 -> XXOXX2
+	XXOXX2 -> XXOXO3
+	XXOXO3 -> cluck
+	XGXGX1 -> XXOXX2
+	XXOXX2 -> XOOXO3
+	XOOXO3 -> clock
+	XGXGX1 -> XXOXO2
+	XXOXO2 -> pluck
+	XGXGX1 -> GXOXX2
+	GXOXX2 -> black
+	XGXGX1 -> XXOXX2
+	XXOXX2 -> GXOOO3
+	GXOOO3 -> flack
+	XGXGX1 -> XXOXX2
+	XXOXX2 -> GOOXO3
+	GOOXO3 -> flock
+	XGXGX1 -> GXOXX2
+	GXOXX2 -> GGXGG3
+	GGXGG3 -> block
+	XGXGX1 -> XXOXX2
+	XXOXX2 -> XXOOO3
+	XXOOO3 -> clack
+}

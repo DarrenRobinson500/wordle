@@ -1,0 +1,29 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	OOXXO1 -> GOXOX2
+	GOXOX2 -> loser
+	OOXXO1 -> GGGGX2
+	GGGGX2 -> least
+	OOXXO1 -> OOOOX2
+	OOOOX2 -> easel
+	OOXXO1 -> OGXGG2
+	OGXGG2 -> welsh
+	OOXXO1 -> leash
+}

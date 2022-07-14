@@ -1,0 +1,31 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	XXGGG1 -> XOOOX2
+	XOOOX2 -> voice
+	XXGGG1 -> XOXXO2
+	XOXXO2 -> GXGGG3
+	GXGGG3 -> twice
+	XXGGG1 -> XOXXO2
+	XOXXO2 -> trice
+	XXGGG1 -> GOXXX2
+	GOXXX2 -> price
+	XXGGG1 -> XOXXX2
+	XOXXX2 -> juice
+}

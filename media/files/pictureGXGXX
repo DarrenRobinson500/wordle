@@ -1,0 +1,72 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	GXGXX1 -> stink
+	GXGXX1 -> GOGGX2
+	GOGGX2 -> saint
+	GXGXX1 -> GGGGX2
+	GGGGX2 -> sting
+	GXGXX1 -> GXGXO2
+	GXGXO2 -> GGGXX3
+	GGGXX3 -> skimp
+	GXGXX1 -> GOGXX2
+	GOGXX2 -> GXGGG3
+	GXGGG3 -> swift
+	GXGXX1 -> GXGGX2
+	GXGGX2 -> XXXOX3
+	XXXOX3 -> spiny
+	GXGXX1 -> GXGGX2
+	GXGGX2 -> XGXXX3
+	XGXXX3 -> suing
+	GXGXX1 -> GGGGX2
+	GGGGX2 -> GGGGX3
+	GGGGX3 -> stint
+	GXGXX1 -> GOGXX2
+	GOGXX2 -> shift
+	GXGXX1 -> GXGXG2
+	GXGXG2 -> shirk
+	GXGXX1 -> GXGXX2
+	GXGXX2 -> swish
+	GXGXX1 -> GOGXX2
+	GOGXX2 -> GGGXG3
+	GGGXG3 -> shirt
+	GXGXX1 -> GXGXG2
+	GXGXG2 -> GXGGG3
+	GXGGG3 -> smirk
+	GXGXX1 -> GXGGX2
+	GXGGX2 -> OXXXO3
+	OXXXO3 -> shiny
+	GXGXX1 -> GXGXO2
+	GXGXO2 -> skiff
+	GXGXX1 -> GXGGX2
+	GXGGX2 -> XXXXX3
+	XXXXX3 -> swing
+	GXGXX1 -> GGGXX2
+	GGGXX2 -> stiff
+	GXGXX1 -> GXGOX2
+	GXGOX2 -> sniff
+	GXGXX1 -> GXGXO2
+	GXGXO2 -> GOGXX3
+	GOGXX3 -> spiky
+	GXGXX1 -> GOGXX2
+	GOGXX2 -> GOGXO3
+	GOGXO3 -> smith
+	GXGXX1 -> GOGXO2
+	GOGXO2 -> skirt
+}

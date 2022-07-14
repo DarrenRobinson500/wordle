@@ -1,0 +1,101 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	XXOOX1 -> GOXOX2
+	GOXOX2 -> cigar
+	XXOOX1 -> OXXGX2
+	OXXGX2 -> XXXGG3
+	XXXGG3 -> mimic
+	XXOOX1 -> GXXGX2
+	GXXGX2 -> GXXGX3
+	GXXGX3 -> civic
+	XXOOX1 -> GXXGO2
+	GXXGO2 -> conic
+	XXOOX1 -> OXXOX2
+	OXXOX2 -> OXGXG3
+	OXGXG3 -> picky
+	XXOOX1 -> OGXGO2
+	OGXGO2 -> XGGGG3
+	XGGGG3 -> panic
+	XXOOX1 -> GXXGO2
+	GXXGO2 -> GXGGG3
+	GXGGG3 -> cynic
+	XXOOX1 -> OGXGX2
+	OGXGX2 -> XGXGO3
+	XGXGO3 -> tacit
+	XXOOX1 -> OXXGO2
+	OXXGO2 -> XXOOX3
+	XXOOX3 -> ionic
+	XXOOX1 -> OXXOO2
+	OXXOO2 -> incur
+	XXOOX1 -> OXXGO2
+	OXXGO2 -> XOOOX3
+	XOOOX3 -> GXGGG4
+	GXGGG4 -> tunic
+	XXOOX1 -> OGXGX2
+	OGXGX2 -> magic
+	XXOOX1 -> GXXGX2
+	GXXGX2 -> choir
+	XXOOX1 -> cabin
+	XXOOX1 -> GXXGX2
+	GXXGX2 -> GXOGX3
+	GXOGX3 -> comic
+	XXOOX1 -> OOXGX2
+	OOXGX2 -> acrid
+	XXOOX1 -> OXXOX2
+	OXXOX2 -> OXGXX3
+	OXGXX3 -> micro
+	XXOOX1 -> GXXGG2
+	GXXGG2 -> cumin
+	XXOOX1 -> GOXGX2
+	GOXGX2 -> chair
+	XXOOX1 -> OXXGX2
+	OXXGX2 -> optic
+	XXOOX1 -> GXXGX2
+	GXXGX2 -> GXOGO3
+	GXOGO3 -> curio
+	XXOOX1 -> OGXGO2
+	OGXGO2 -> manic
+	XXOOX1 -> GGXOX2
+	GGXOX2 -> cacti
+	XXOOX1 -> GXGGX2
+	GXGGX2 -> cubic
+	XXOOX1 -> OXXOX2
+	OXXOX2 -> itchy
+	XXOOX1 -> OXXGX2
+	OXXGX2 -> OOOGG3
+	OOOGG3 -> topic
+	XXOOX1 -> OOXOX2
+	OOXOX2 -> vicar
+	XXOOX1 -> OXXGX2
+	OXXGX2 -> OXOGG3
+	OXOGG3 -> toxic
+	XXOOX1 -> OXXGO2
+	OXXGO2 -> XOOOX3
+	XOOOX3 -> tonic
+	XXOOX1 -> GOXGG2
+	GOXGG2 -> chain
+	XXOOX1 -> OXGGX2
+	OXGGX2 -> pubic
+	XXOOX1 -> OOXGO2
+	OOXGO2 -> antic
+	XXOOX1 -> OOXGX2
+	OOXGX2 -> GOXGX3
+	GOXGX3 -> attic
+}

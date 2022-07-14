@@ -1,0 +1,34 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	GOGXX1 -> GXGOX2
+	GXGOX2 -> swirl
+	GOGXX1 -> GXGGX2
+	GXGGX2 -> skill
+	GOGXX1 -> GXGGX2
+	GXGGX2 -> GXGGG3
+	GXGGG3 -> swill
+	GOGXX1 -> GGGGX2
+	GGGGX2 -> spill
+	GOGXX1 -> spilt
+	GOGXX1 -> GXGGO2
+	GXGGO2 -> still
+	GOGXX1 -> GXGGG2
+	GXGGG2 -> stilt
+}

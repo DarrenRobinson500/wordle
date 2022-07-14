@@ -1,0 +1,53 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	GXOXX1 -> GXXOX2
+	GXXOX2 -> sissy
+	GXOXX1 -> GOOGX2
+	GOOGX2 -> GGGGX3
+	GGGGX3 -> stair
+	GXOXX1 -> GOXOX2
+	GOXOX2 -> sigma
+	GXOXX1 -> GXXOX2
+	GXXOX2 -> GOGOX3
+	GOGOX3 -> sushi
+	GXOXX1 -> GOOGG2
+	GOOGG2 -> stain
+	GXOXX1 -> GOXOX2
+	GOXOX2 -> GOXGO3
+	GOXGO3 -> swami
+	GXOXX1 -> GXOOX2
+	GXOOX2 -> GGXOO3
+	GGXOO3 -> sixth
+	GXOXX1 -> GXXGX2
+	GXXGX2 -> GXXGX3
+	GXXGX3 -> squib
+	GXOXX1 -> GXOGX2
+	GXOGX2 -> strip
+	GXOXX1 -> GXOOX2
+	GXOOX2 -> sight
+	GXOXX1 -> GXOOX2
+	GXOOX2 -> GGXXO3
+	GGXXO3 -> sixty
+	GXOXX1 -> GXXGX2
+	GXXGX2 -> sprig
+	GXOXX1 -> satin
+	GXOXX1 -> GOOGX2
+	GOOGX2 -> staid
+}

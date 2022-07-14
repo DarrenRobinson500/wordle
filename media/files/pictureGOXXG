@@ -1,0 +1,33 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	GOXXG1 -> GXGGG2
+	GXGGG2 -> solve
+	GOXXG1 -> GOOXG2
+	GOOXG2 -> GXGGG3
+	GXGGG3 -> stale
+	GOXXG1 -> GXOXG2
+	GXOXG2 -> stole
+	GOXXG1 -> GOOXG2
+	GOOXG2 -> shale
+	GOXXG1 -> salve
+	GOXXG1 -> GXOXG2
+	GXOXG2 -> GGXGG3
+	GGXGG3 -> style
+}

@@ -1,0 +1,51 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	GXXGX1 -> GXXGX2
+	GXXGX2 -> XGXXX3
+	XGXXX3 -> shock
+	GXXGX1 -> GXGGX2
+	GXGGX2 -> OXXXX3
+	OXXXX3 -> stuck
+	GXXGX1 -> GOXGX2
+	GOXGX2 -> XXXOX3
+	XXXOX3 -> stack
+	GXXGX1 -> GXGGX2
+	GXGGX2 -> XXXXO3
+	XXXXO3 -> snuck
+	GXXGX1 -> GOXGX2
+	GOXGX2 -> OXXXX3
+	OXXXX3 -> smack
+	GXXGX1 -> GXGGX2
+	GXGGX2 -> XGXXX3
+	XGXXX3 -> shuck
+	GXXGX1 -> GXXGX2
+	GXXGX2 -> OXXXX3
+	OXXXX3 -> stock
+	GXXGX1 -> GXXGX2
+	GXXGX2 -> XXXOX3
+	XXXOX3 -> smock
+	GXXGX1 -> saucy
+	GXXGX1 -> GOXGX2
+	GOXGX2 -> XXXXO3
+	XXXXO3 -> shack
+	GXXGX1 -> GOXGX2
+	GOXGX2 -> XXOXX3
+	XXOXX3 -> snack
+}

@@ -1,0 +1,34 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	OXGXG1 -> GXGOG2
+	GXGOG2 -> aside
+	OXGXG1 -> arise
+	OXGXG1 -> XXGGG2
+	XXGGG2 -> GXXXX3
+	GXXXX3 -> poise
+	OXGXG1 -> OOGGG2
+	OOGGG2 -> raise
+	OXGXG1 -> XXGGG2
+	XXGGG2 -> XXXXO3
+	XXXXO3 -> noise
+	OXGXG1 -> XXGGG2
+	XXGGG2 -> XXOXX3
+	XXOXX3 -> guise
+}

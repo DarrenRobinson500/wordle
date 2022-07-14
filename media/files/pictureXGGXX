@@ -1,0 +1,41 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	XGGXX1 -> GGGGX2
+	GGGGX2 -> fling
+	XGGXX1 -> XGGGX2
+	XGGGX2 -> GGGGX3
+	GGGGX3 -> blink
+	XGGXX1 -> flint
+	XGGXX1 -> XGGGG2
+	XGGGG2 -> glint
+	XGGXX1 -> XGGOX2
+	XGGOX2 -> align
+	XGGXX1 -> GGGXG2
+	GGGXG2 -> flirt
+	XGGXX1 -> XGGXX2
+	XGGXX2 -> XGGOO3
+	XGGOO3 -> blimp
+	XGGXX1 -> XGGXO2
+	XGGXO2 -> blitz
+	XGGXX1 -> XGGGX2
+	XGGGX2 -> blind
+	XGGXX1 -> XGGXX2
+	XGGXX2 -> alibi
+}

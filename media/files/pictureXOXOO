@@ -1,0 +1,33 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	XOXOO1 -> XOOGO2
+	XOOGO2 -> eclat
+	XOXOO1 -> XOGXG2
+	XOGXG2 -> excel
+	XOXOO1 -> XGGGG2
+	XGGGG2 -> fecal
+	XOXOO1 -> decal
+	XOXOO1 -> XOOXG2
+	XOOXG2 -> cruel
+	XOXOO1 -> XOOOG2
+	XOOOG2 -> camel
+	XOXOO1 -> XGOXO2
+	XGOXO2 -> cello
+}

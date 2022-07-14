@@ -1,0 +1,51 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	GXGXG1 -> GXGOG2
+	GXGOG2 -> XXXXO3
+	XXXXO3 -> spike
+	GXGXG1 -> GXGXG2
+	GXGXG2 -> OXXXO3
+	OXXXO3 -> shire
+	GXGXG1 -> GXGXG2
+	GXGXG2 -> XXOXX3
+	XXOXX3 -> smite
+	GXGXG1 -> GXGOG2
+	GXGOG2 -> OXXXX3
+	OXXXX3 -> spite
+	GXGXG1 -> GOGXG2
+	GOGXG2 -> GXGGG3
+	GXGGG3 -> swine
+	GXGXG1 -> GXGXG2
+	GXGXG2 -> XXXXX3
+	XXXXX3 -> seize
+	GXGXG1 -> GGGXG2
+	GGGXG2 -> snide
+	GXGXG1 -> GXGOG2
+	GXGOG2 -> XOXXX3
+	XOXXX3 -> spire
+	GXGXG1 -> GXGXG2
+	GXGXG2 -> XGXXX3
+	XGXXX3 -> suite
+	GXGXG1 -> GOGOG2
+	GOGOG2 -> spine
+	GXGXG1 -> snipe
+	GXGXG1 -> GOGXG2
+	GOGXG2 -> shine
+}

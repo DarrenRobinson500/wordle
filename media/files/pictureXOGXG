@@ -1,0 +1,31 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	XOGXG1 -> XXOOG2
+	XXOOG2 -> guile
+	XOGXG1 -> XXXXG2
+	XXXXG2 -> exile
+	XOGXG1 -> XXXOG2
+	XXXOG2 -> utile
+	XOGXG1 -> XXXXG2
+	XXXXG2 -> OXGGG3
+	OXGGG3 -> while
+	XOGXG1 -> GXOXG2
+	GXOXG2 -> agile
+}

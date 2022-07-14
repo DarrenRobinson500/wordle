@@ -1,0 +1,65 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	XXOXG1 -> GGXXG2
+	GGXXG2 -> biome
+	XXOXG1 -> XOXXG2
+	XOXXG2 -> OOXGG3
+	OOXGG3 -> movie
+	XXOXG1 -> XGGGG2
+	XGGGG2 -> hinge
+	XXOXG1 -> XGXGG2
+	XGXGG2 -> OXOXO3
+	OXOXO3 -> midge
+	XXOXG1 -> XOOXG2
+	XOOXG2 -> inane
+	XXOXG1 -> XGXXG2
+	XGXXG2 -> pique
+	XXOXG1 -> XOXXG2
+	XOXXG2 -> eerie
+	XXOXG1 -> XGXXG2
+	XGXXG2 -> XGXXG3
+	XGXXG3 -> diode
+	XXOXG1 -> XGXGG2
+	XGXGG2 -> OOOXX3
+	OOOXX3 -> ridge
+	XXOXG1 -> XOGOG2
+	XOGOG2 -> genie
+	XXOXG1 -> XOXXG2
+	XOXXG2 -> OOOOG3
+	OOOOG3 -> irate
+	XXOXG1 -> XGXXG2
+	XGXXG2 -> GGXXG3
+	GGXXG3 -> pixie
+	XXOXG1 -> XGXGG2
+	XGXGG2 -> GOOXX3
+	GOOXX3 -> dirge
+	XXOXG1 -> XGXXG2
+	XGXXG2 -> XGXXG3
+	XGXXG3 -> XGXXG4
+	XGXXG4 -> tithe
+	XXOXG1 -> binge
+	XXOXG1 -> OOXXG2
+	OOXXG2 -> imbue
+	XXOXG1 -> XOXGG2
+	XOXGG2 -> image
+	XXOXG1 -> XOOXG2
+	XOOXG2 -> OGXOG3
+	OGXOG3 -> untie
+}

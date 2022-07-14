@@ -1,0 +1,34 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	XGGXG1 -> GXOXX2
+	GXOXX2 -> olive
+	XGGXG1 -> XXOXO2
+	XXOXO2 -> alike
+	XGGXG1 -> XXOXX2
+	XXOXX2 -> GGGXG3
+	GGGXG3 -> elite
+	XGGXG1 -> XXOXO2
+	XXOXO2 -> GGGXG3
+	GGGXG3 -> alive
+	XGGXG1 -> XXOOX2
+	XXOOX2 -> glide
+	XGGXG1 -> XXOXX2
+	XXOXX2 -> elide
+}

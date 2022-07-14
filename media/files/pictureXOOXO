@@ -1,0 +1,67 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	XOOXO1 -> OOXOX2
+	OOXOX2 -> OXXGO3
+	OXXGO3 -> helix
+	XOOXO1 -> GGXGX2
+	GGXGX2 -> XXOOX3
+	XXOOX3 -> linen
+	XOOXO1 -> OGXOX2
+	OGXOX2 -> OXXXX3
+	OXXXX3 -> yield
+	XOOXO1 -> OGXOX2
+	OGXOX2 -> OXXXO3
+	OXXXO3 -> field
+	XOOXO1 -> liver
+	XOOXO1 -> GGXGX2
+	GGXGX2 -> OXOXX3
+	OXOXX3 -> libel
+	XOOXO1 -> OOXOX2
+	OOXOX2 -> OXOOG3
+	OXOOG3 -> ideal
+	XOOXO1 -> OGXGX2
+	OGXGX2 -> filet
+	XOOXO1 -> OOXGG2
+	OOXGG2 -> idler
+	XOOXO1 -> OGXOX2
+	OGXOX2 -> OOXXX3
+	OOXXX3 -> wield
+	XOOXO1 -> OGXGX2
+	OGXGX2 -> XGOGX3
+	XGOGX3 -> pixel
+	XOOXO1 -> GGXGG2
+	GGXGG2 -> liner
+	XOOXO1 -> OOGOX2
+	OOGOX2 -> devil
+	XOOXO1 -> GGXGX2
+	GGXGX2 -> XXOOO3
+	XXOOO3 -> liken
+	XOOXO1 -> OGXGG2
+	OGXGG2 -> filer
+	XOOXO1 -> OOXOX2
+	OOXOX2 -> email
+	XOOXO1 -> OOXGX2
+	OOXGX2 -> impel
+	XOOXO1 -> OOXGX2
+	OOXGX2 -> GXXGO3
+	GXXGO3 -> inlet
+	XOOXO1 -> OOXOO2
+	OOXOO2 -> peril
+}

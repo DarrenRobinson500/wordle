@@ -1,0 +1,28 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	XXOGG1 -> OXXXX2
+	OXXXX2 -> wince
+	XXOGG1 -> OXOXX2
+	OXOXX2 -> mince
+	XXOGG1 -> GXXXX2
+	GXXXX2 -> niece
+	XXOGG1 -> XXXOX2
+	XXXOX2 -> piece
+}

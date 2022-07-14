@@ -1,0 +1,33 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	GXOXO1 -> GOXGX2
+	GOXGX2 -> GXGGX3
+	GXGGX3 -> stein
+	GXOXO1 -> GOXOX2
+	GOXOX2 -> GGOGX3
+	GGOGX3 -> siren
+	GXOXO1 -> sepia
+	GXOXO1 -> GOXGX2
+	GOXGX2 -> sheik
+	GXOXO1 -> GOXOX2
+	GOXOX2 -> sinew
+	GXOXO1 -> GGXGX2
+	GGXGX2 -> serif
+}

@@ -1,0 +1,30 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	GGXXO1 -> OXXXO2
+	OXXXO2 -> sleep
+	GGXXO1 -> XXXXO2
+	XXXXO2 -> GGGGX3
+	GGGGX3 -> sleet
+	GGXXO1 -> OXXXO2
+	OXXXO2 -> GGGOO3
+	GGGOO3 -> slept
+	GGXXO1 -> XXXXO2
+	XXXXO2 -> sleek
+}

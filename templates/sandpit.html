@@ -1,0 +1,25 @@
+{% extends 'base.html'%}
+{% block content %}
+{% load svg %}
+
+
+<h1>Sandpit</h1>
+{% for x in svg_files %}
+    <div class="col-sm-12">
+        <h1 class="logo" width="500">{% svg x %}</h1>
+    </div>
+{% endfor %}
+
+
+<div class="row">
+    <div class="col-sm-5">
+    {{ fav_word }} <br>
+    {{ result }}
+        <table class='table table-sm' style="text-align: center;">
+
+
+        </table>
+    </div>
+</div>
+
+{% endblock %}

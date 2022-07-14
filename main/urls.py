@@ -5,6 +5,7 @@ from .views import *
 urlpatterns = [
     path('', home, name='home'),
     path('home', home, name='home'),
+    path('sandpit', sandpit, name='sandpit'),
     path('home/<entry>', home, name='home'),
     path('initial_load', initial_load, name='initial_load'),
     path('load_dates', load_dates, name='load_dates'),

@@ -1,0 +1,37 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	XOOXG1 -> GGOOG2
+	GGOOG2 -> tilde
+	XOOXG1 -> XGXOG2
+	XGXOG2 -> XGOGG3
+	XGOGG3 -> liege
+	XOOXG1 -> XGXGG2
+	XGXGG2 -> XGXGG3
+	XGXGG3 -> rifle
+	XOOXG1 -> title
+	XOOXG1 -> XGXOG2
+	XGXOG2 -> bilge
+	XOOXG1 -> XGXGG2
+	XGXGG2 -> bible
+	XOOXG1 -> OGGOG2
+	OGGOG2 -> lithe
+	XOOXG1 -> XOXOG2
+	XOXOG2 -> belie
+}

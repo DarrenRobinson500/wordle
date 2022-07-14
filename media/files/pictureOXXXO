@@ -1,0 +1,107 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	OXXXO1 -> GOXGX2
+	GOXGX2 -> fresh
+	OXXXO1 -> XOOOX2
+	XOOOX2 -> OGXOX3
+	OGXOX3 -> essay
+	OXXXO1 -> XOXOX2
+	XOXOX2 -> XXOGX3
+	XXOGX3 -> usher
+	OXXXO1 -> XGXOX2
+	XGXOX2 -> XGOXX3
+	XGOXX3 -> rebus
+	OXXXO1 -> XOOOX2
+	XOOOX2 -> GGXGX3
+	GGXGX3 -> askew
+	OXXXO1 -> XGXOO2
+	XGXOO2 -> OXXXO3
+	OXXXO3 -> zesty
+	OXXXO1 -> GGXOO2
+	GGXOO2 -> fetus
+	OXXXO1 -> XOOOG2
+	XOOOG2 -> asset
+	OXXXO1 -> XOXOG2
+	XOXOG2 -> XOOXX3
+	XOOXX3 -> GXGGG4
+	GXGGG4 -> upset
+	OXXXO1 -> XOXOG2
+	XOXOG2 -> GXOXO3
+	GXOXO3 -> onset
+	OXXXO1 -> XOXOG2
+	XOXOG2 -> XOOXX3
+	XOOXX3 -> unset
+	OXXXO1 -> XOXGG2
+	XOXGG2 -> XGXOX3
+	XGXOX3 -> wrest
+	OXXXO1 -> XGXOG2
+	XGXOG2 -> XGGGG3
+	XGGGG3 -> reset
+	OXXXO1 -> XGXOG2
+	XGXOG2 -> beset
+	OXXXO1 -> XOXOX2
+	XOXOX2 -> XGGGX3
+	XGGGX3 -> poser
+	OXXXO1 -> XOXGG2
+	XOXGG2 -> GXXXX3
+	GXXXX3 -> guest
+	OXXXO1 -> XOOOX2
+	XOOOX2 -> ashen
+	OXXXO1 -> XOXOO2
+	XOXOO2 -> ester
+	OXXXO1 -> XOXGX2
+	XOXGX2 -> XXGGO3
+	XXGGO3 -> poesy
+	OXXXO1 -> XGGGG2
+	XGGGG2 -> XGGGG3
+	XGGGG3 -> yeast
+	OXXXO1 -> feast
+	OXXXO1 -> XGXOX2
+	XGXOX2 -> pesky
+	OXXXO1 -> XOXOO2
+	XOXOO2 -> GOOOX3
+	GOOOX3 -> ethos
+	OXXXO1 -> XGGGG2
+	XGGGG2 -> beast
+	OXXXO1 -> XGXOO2
+	XGXOO2 -> OOOXX3
+	OOOXX3 -> pesto
+	OXXXO1 -> XOXGG2
+	XOXGG2 -> XXXXX3
+	XXXXX3 -> quest
+	OXXXO1 -> XOXGX2
+	XOXGX2 -> XXGGG3
+	XXGGG3 -> guess
+	OXXXO1 -> XOXGX2
+	XOXGX2 -> dress
+	OXXXO1 -> XOXOX2
+	XOXOX2 -> nosey
+	OXXXO1 -> XOXOX2
+	XOXOX2 -> XXGGX3
+	XXGGX3 -> bused
+	OXXXO1 -> XGXOO2
+	XGXOO2 -> GXXXX3
+	GXXXX3 -> testy
+	OXXXO1 -> XGXGX2
+	XGXGX2 -> verso
+	OXXXO1 -> XOXGX2
+	XOXGX2 -> XGGGG3
+	XGGGG3 -> press
+}

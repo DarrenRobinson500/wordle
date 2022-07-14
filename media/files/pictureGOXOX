@@ -1,0 +1,30 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	GOXOX1 -> scald
+	GOXOX1 -> GGGGX2
+	GGGGX2 -> scalp
+	GOXOX1 -> GGGGX2
+	GGGGX2 -> GGGGX3
+	GGGGX3 -> scaly
+	GOXOX1 -> GGXGG2
+	GGXGG2 -> scold
+	GOXOX1 -> GGXOX2
+	GGXOX2 -> scowl
+}

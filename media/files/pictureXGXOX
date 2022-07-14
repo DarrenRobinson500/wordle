@@ -1,0 +1,47 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	XGXOX1 -> GGGXX2
+	GGGXX2 -> OXXXO3
+	OXXXO3 -> cloth
+	XGXOX1 -> GGGXX2
+	GGGXX2 -> XXXGO3
+	XXXGO3 -> clown
+	XGXOX1 -> GGXOX2
+	GGXOX2 -> GGGXX3
+	GGGXX3 -> clung
+	XGXOX1 -> GGGGX2
+	GGGGX2 -> clout
+	XGXOX1 -> GGGXX2
+	GGGXX2 -> XXOXO3
+	XXOXO3 -> cloak
+	XGXOX1 -> GGXXX2
+	GGXXX2 -> XXOXX3
+	XXOXX3 -> clamp
+	XGXOX1 -> GGXXX2
+	GGXXX2 -> XOXXX3
+	XOXXX3 -> GGGGX4
+	GGGGX4 -> clank
+	XGXOX1 -> cloud
+	XGXOX1 -> GGXXX2
+	GGXXX2 -> XOXXX3
+	XOXXX3 -> clang
+	XGXOX1 -> GGXOX2
+	GGXOX2 -> clump
+}

@@ -1,0 +1,42 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	GOXXO1 -> GXGGO2
+	GXGGO2 -> smelt
+	GOXXO1 -> GXGGG2
+	GXGGG2 -> GXXXO3
+	GXXXO3 -> spell
+	GOXXO1 -> GXGGO2
+	GXGGO2 -> GXGGG3
+	GXGGG3 -> spelt
+	GOXXO1 -> GXGOG2
+	GXGOG2 -> steal
+	GOXXO1 -> shell
+	GOXXO1 -> GXGOG2
+	GXGOG2 -> GGGXG3
+	GGGXG3 -> steel
+	GOXXO1 -> GXGGG2
+	GXGGG2 -> GXXOX3
+	GXXOX3 -> smell
+	GOXXO1 -> GGGGO2
+	GGGGO2 -> shelf
+	GOXXO1 -> GXGGG2
+	GXGGG2 -> GGXXX3
+	GGXXX3 -> swell
+}

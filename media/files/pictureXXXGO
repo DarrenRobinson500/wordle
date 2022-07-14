@@ -1,0 +1,62 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	XXXGO1 -> XGXGX2
+	XGXGX2 -> GGOGG3
+	GGOGG3 -> bench
+	XXXGO1 -> react
+	XXXGO1 -> OGXGX2
+	OGXGX2 -> XGGGX3
+	XGGGX3 -> perch
+	XXXGO1 -> GGXGO2
+	GGXGO2 -> retch
+	XXXGO1 -> XOXGX2
+	XOXGX2 -> OOOGX3
+	OOOGX3 -> epoch
+	XXXGO1 -> XGGGX2
+	XGGGX2 -> XGGGG3
+	XGGGG3 -> peach
+	XXXGO1 -> OOXGX2
+	OOXGX2 -> wreck
+	XXXGO1 -> XGXGX2
+	XGXGX2 -> beech
+	XXXGO1 -> XOXGX2
+	XOXGX2 -> check
+	XXXGO1 -> XGGGX2
+	XGGGX2 -> beach
+	XXXGO1 -> XOGGG2
+	XOGGG2 -> enact
+	XXXGO1 -> XGXGO2
+	XGXGO2 -> fetch
+	XXXGO1 -> GGGGX2
+	GGGGX2 -> reach
+	XXXGO1 -> XGGGO2
+	XGGGO2 -> teach
+	XXXGO1 -> OOXGG2
+	OOXGG2 -> erect
+	XXXGO1 -> XOGGG2
+	XOGGG2 -> GXGGG3
+	GXGGG3 -> exact
+	XXXGO1 -> XGOGX2
+	XGOGX2 -> mecca
+	XXXGO1 -> OGXGX2
+	OGXGX2 -> mercy
+	XXXGO1 -> XOXGG2
+	XOXGG2 -> eject
+}

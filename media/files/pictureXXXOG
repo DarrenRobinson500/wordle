@@ -1,0 +1,67 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	XXXOG1 -> GGGXG2
+	GGGXG2 -> XXOOX3
+	XXOOX3 -> crate
+	XXXOG1 -> GGGXG2
+	GGGXG2 -> XXXOX3
+	XXXOX3 -> craze
+	XXXOG1 -> OXOXG2
+	OXOXG2 -> acute
+	XXXOG1 -> GXXXG2
+	GXXXG2 -> choke
+	XXXOG1 -> GXXXG2
+	GXXXG2 -> GGXXG3
+	GGXXG3 -> chute
+	XXXOG1 -> GGGXG2
+	GGGXG2 -> OXXOX3
+	OXXOX3 -> crave
+	XXXOG1 -> GXOOG2
+	GXOOG2 -> canoe
+	XXXOG1 -> GOOXG2
+	GOOXG2 -> carve
+	XXXOG1 -> OXXXG2
+	OXXXG2 -> emcee
+	XXXOG1 -> GOXXG2
+	GOXXG2 -> chore
+	XXXOG1 -> GXGXG2
+	GXGXG2 -> chafe
+	XXXOG1 -> GXOXG2
+	GXOXG2 -> cache
+	XXXOG1 -> GGXXG2
+	GGXXG2 -> OOXXX3
+	OOXXX3 -> creme
+	XXXOG1 -> GGXXG2
+	GGXXG2 -> OOXXX3
+	OOXXX3 -> GGGXG4
+	GGGXG4 -> crepe
+	XXXOG1 -> GGXXG2
+	GGXXG2 -> OOXOX3
+	OOXOX3 -> crude
+	XXXOG1 -> crane
+	XXXOG1 -> GXXXG2
+	GXXXG2 -> GXOXG3
+	GXOXG3 -> coupe
+	XXXOG1 -> GOXXG2
+	GOXXG2 -> GXXOG3
+	GXXOG3 -> curve
+	XXXOG1 -> GGXGG2
+	GGXGG2 -> crone
+}

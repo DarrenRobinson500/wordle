@@ -1,0 +1,54 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	GXXOX1 -> GGOXX2
+	GGOXX2 -> GGGOX3
+	GGGOX3 -> scour
+	GXXOX1 -> scrap
+	GXXOX1 -> GGOXX2
+	GGOXX2 -> scorn
+	GXXOX1 -> GGXOX2
+	GGXOX2 -> GGOXX3
+	GGOXX3 -> scuba
+	GXXOX1 -> GOXGX2
+	GOXGX2 -> sumac
+	GXXOX1 -> GGGXX2
+	GGGXX2 -> scrub
+	GXXOX1 -> GGOOX2
+	GGOOX2 -> scarf
+	GXXOX1 -> GGXXG2
+	GGXXG2 -> scoop
+	GXXOX1 -> GGXXX2
+	GGXXX2 -> scoff
+	GXXOX1 -> GGGXX2
+	GGGXX2 -> GGGGX3
+	GGGGX3 -> scrum
+	GXXOX1 -> GGXOX2
+	GGXOX2 -> scant
+	GXXOX1 -> GGXXX2
+	GGXXX2 -> GGGXX3
+	GGGXX3 -> scout
+	GXXOX1 -> GGOOX2
+	GGOOX2 -> GGGGX3
+	GGGGX3 -> scary
+	GXXOX1 -> GGXOG2
+	GGXOG2 -> scamp
+	GXXOX1 -> GGGGX2
+	GGGGX2 -> scram
+}

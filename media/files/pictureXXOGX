@@ -1,0 +1,47 @@
+// Graphic
+strict digraph {
+	graph [concentrate=true]
+	rankdir=LR
+	subgraph cluster_1 {
+		label=cluster_1 labeljust=l style=filled
+	}
+	subgraph cluster_2 {
+		label=cluster_2 labeljust=l style=filled
+	}
+	subgraph cluster_3 {
+		label=cluster_3 labeljust=l style=filled
+	}
+	subgraph cluster_4 {
+		label=cluster_4 labeljust=l style=filled
+	}
+	subgraph cluster_5 {
+		label=cluster_5 labeljust=l style=filled
+	}
+	XXOGX1 -> XGGGG2
+	XGGGG2 -> XXOXX3
+	XXOXX3 -> cinch
+	XXOGX1 -> XGXGG2
+	XGXGG2 -> OXXXX3
+	OXXXX3 -> birch
+	XXOGX1 -> XGGGG2
+	XGGGG2 -> XXOXX3
+	XXOXX3 -> OGGGG4
+	OGGGG4 -> winch
+	XXOGX1 -> GGXGG2
+	GGXGG2 -> pitch
+	XXOGX1 -> XGGGG2
+	XGGGG2 -> GXOXX3
+	GXOXX3 -> finch
+	XXOGX1 -> XGXGG2
+	XGXGG2 -> GXXXX3
+	GXXXX3 -> hitch
+	XXOGX1 -> XGXGG2
+	XGXGG2 -> OXXOX3
+	OXXOX3 -> ditch
+	XXOGX1 -> XGXGX2
+	XGXGX2 -> circa
+	XXOGX1 -> XGXGG2
+	XGXGG2 -> OXOXX3
+	OXOXX3 -> witch
+	XXOGX1 -> pinch
+}
